@@ -25,7 +25,7 @@ public class DataSourceConfig {
     static final String PACKAGE = "com.zrk.archetype.dao";
     static final String MAPPER_LOCATION = "classpath:mapper/*.xml";
 
-    @Value("${spring.datasource.archetype.url}")
+    @Value("${spring.datasource.test.url}")
     private String url;
 
     @Value("${spring.datasource.username}")
