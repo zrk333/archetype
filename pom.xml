@@ -47,6 +47,11 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-context</artifactId>
+		</dependency>
+
 		<!--eureka-->
 		<!--<dependency>-->
 			<!--<groupId>org.springframework.cloud</groupId>-->
@@ -80,18 +85,18 @@
 		</dependency>
 
 		<!-- mybatis -->
-		<!--<dependency>-->
-			<!--<groupId>org.mybatis.spring.boot</groupId>-->
-			<!--<artifactId>mybatis-spring-boot-starter</artifactId>-->
-			<!--<version>${mybatis.version}</version>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>${mybatis.version}</version>
+		</dependency>
 
 		<!-- druid -->
-		<!--<dependency>-->
-			<!--<groupId>com.alibaba</groupId>-->
-			<!--<artifactId>druid-spring-boot-starter</artifactId>-->
-			<!--<version>${druid.version}</version>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid-spring-boot-starter</artifactId>
+			<version>${druid.version}</version>
+		</dependency>
 
 		<!-- lombok -->
 		<dependency>
@@ -120,11 +125,11 @@
 		</dependency>
 
 		<!-- fastjson -->
-		<!--<dependency>-->
-			<!--<groupId>com.alibaba</groupId>-->
-			<!--<artifactId>fastjson</artifactId>-->
-			<!--<version>${fastjson.version}</version>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>${fastjson.version}</version>
+		</dependency>
 
 		<!--security-->
 		<!--<dependency>-->

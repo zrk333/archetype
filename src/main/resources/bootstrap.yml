@@ -1,5 +1,5 @@
 spring:
   application:
-    name:
+    name: archetype
 server:
-  port:
+  port: 10000
